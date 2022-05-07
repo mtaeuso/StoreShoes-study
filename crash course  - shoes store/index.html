@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShoeStore - study </title>
+    <link rel="stylesheet" href="/css/main.css">
+    <!--importando a fonte -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    
+    <div class="hero-img"> </div>
+        <div class="wrappper"> 
+            <!--div wrappper end-->
+             <header> 
+                 <a href="#" class="logo"> Shoe<span>Store</span> </a>
+            <!--lista com os links para navegar no site-->
+                <nav> 
+                     <!--svg icone de fechar a barra de navegação-->
+                <svg class="closeX" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M14 0C6.2 0 0 6.2 0 14C0 21.8 6.2 28 14 28C21.8 28 28 21.8 28 14C28 6.2 21.8 0 14 0ZM19.4 21L14 15.6L8.6 21L7 19.4L12.4 14L7 8.6L8.6 7L14 12.4L19.4 7L21 8.6L15.6 14L21 19.4L19.4 21Z" fill="black"/>
+                    </svg>
+                    <ul>
+                        <li> <a href="#">Home </a></li>
+                        <li> <a href="#">Contact </a></li>
+                        <li> <a href="#">Sneakers </a></li>
+                    </ul>
+               
+                    
+                        
+
+
+                          </nav>
+
+
+<svg class="menu" viewBox="0 0 48 32" fill="none" xmlns="http://www.w3.org/2000/svg"> <path d="M24 32H0V26.6667H24V32ZM48 18.6667H0V13.3333H48V18.6667ZM48 5.33333H24V0H48V5.33333Z" fill="white"/></svg>
+          
+            </header>
+
+            <!--inicio da sessão hero, que é o primeiro contato do usuario com o site-->
+            <section class="hero"> 
+                <h1> Regain your confidense on the court.</h1>
+                <p class="subhead">A shoe built with purpose and to take your game to the next level.</p>
+                <svg class="seta" viewBox="0 0 16 132" fill="white" xmlns="http://www.w3.org/2000/svg"><path d="M7.29289 131.707C7.68341 132.098 8.31658 132.098 8.7071 131.707L15.0711 125.343C15.4616 124.953 15.4616 124.319 15.0711 123.929C14.6805 123.538 14.0474 123.538 13.6568 123.929L7.99999 129.586L2.34314 123.929C1.95262 123.538 1.31945 123.538 0.928927 123.929C0.538402 124.319 0.538402 124.953 0.928927 125.343L7.29289 131.707ZM7 -4.37114e-08L6.99999 131L8.99999 131L9 4.37114e-08L7 -4.37114e-08Z" fill="black"/></svg>
+            </section>
+            <!-- ............................................................................... -->
+            
+            <!-- container que agrupa as 3 sessoes de conteudo -->
+            <section class="more-info"> 
+                <!-- sessão 1/3 com texto + imagens -->
+               
+                <div class="feature"> 
+                    <div class="content"> 
+                        <p class="title"> ligthweigth</p>
+                        <p class="subtitle"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores rem voluptas, repellat quibusdam deserunt officia. </p>
+                    </div> 
+                    <img src="images/laranja1.jpg" alt="####"/>
+                </div>
+
+                <!-- sessão 2/3 com texto + imagens -->
+                <div class="feature left"> 
+                    <div class="content"> 
+                        <p class="title"> ligthweigth</p>
+                        <p class="subtitle"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores rem voluptas, repellat quibusdam deserunt officia. </p>
+                    </div> 
+                    <img src="images/laranjaclose.jpg" alt="####"/>
+                </div>
+
+                <!-- sessão 3/3 com texto + imagens -->
+                <div class="feature"> 
+                    <div class="content"> 
+                        <p class="title"> ligthweigth</p>
+                        <p class="subtitle"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores rem voluptas, repellat quibusdam deserunt officia. </p>
+                    </div> 
+                    <img src="images/laranjaside.jpg" alt="####"/>
+                </div>
+
+
+            </section>
+     </div>  <!--div wrappper end-->
+
+<script> 
+
+const menu = document.querySelector('.menu')
+const closeX = document.querySelector('.closeX')
+const nav= document.querySelector('nav')
+
+menu.addEventListener('click', () => {
+    nav.classList.add('open')
+});
+
+closeX.addEventListener('click', () => {
+    nav.classList.add('closed')
+});
+
+
+</script>
+
+</body>
+</html>
